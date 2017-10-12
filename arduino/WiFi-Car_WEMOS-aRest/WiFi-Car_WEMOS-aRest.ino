@@ -145,7 +145,7 @@ void loop() {
     return;
   }
   while(!client.available()){
-    delay(2);
+    delay(1);
   }
   rest.handle(client);
  
@@ -234,11 +234,11 @@ int goBackward(String command) {
 }
 
 int handbrake(String command) {
-  showText("init");
   // Motor 1
   motor1("stop");
   // Motor 2
   motor2("stop");
+  showText("init");
 }
 
 int spinLeft(String command) {
@@ -277,6 +277,6 @@ void showText(String text){
 
     // General display and clearing the buffer
     display.display();
-    delay(202); // some delay to give time to oled to draw
+    delay(199); // some delay to give time to oled to draw
     display.clearDisplay();
 }
