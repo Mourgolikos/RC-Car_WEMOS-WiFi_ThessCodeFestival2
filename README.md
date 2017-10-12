@@ -4,4 +4,4 @@ The code and schema and photos about How to Make a Remote Controlled Car via WiF
 
 
 
-## STAY TUNED FOR THE massive UPDATE!
+## Έρχονται κι άλλα :)
