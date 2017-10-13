@@ -1,3 +1,23 @@
+//                         2nd Thess Code Festival Workshop
+//
+// author: Paschaleris Triantafyllos
+//         https://paschaleris.gr
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Get the modified Arduino IDE:
+//    \\192.168.88.1\sd(a1)\ArduinoIDE.zip
+// extract the file
+// replace the contents of C:\Program Files (x86)\Arduino
+//
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Link to add additional boards (File > Preferences): http://arduino.esp8266.com/stable/package_esp8266com_index.json
+//
+// Before Upload CHECK in tools for the CORRECT PORT and:
+//   Board: "WeMos D1 R2 & mini"
+//   CPU Frequency: "80MHz"
+//   Flash Size: "4M (3M SPIFFS)"
+//   Upload Speed: "921600"
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // Import required libraries
 #include "ESP8266WiFi.h"
 #include <aREST.h>
