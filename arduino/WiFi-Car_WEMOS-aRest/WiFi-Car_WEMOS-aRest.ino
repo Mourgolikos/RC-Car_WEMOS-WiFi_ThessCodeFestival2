@@ -33,6 +33,12 @@ const char* password = "peinaw!!!";
 // Create an instance of the server
 WiFiServer server(LISTEN_PORT);
 
+//// Set the IP address for the shield //also later in setup
+//IPAddress ip(192, 168, 88, 200);
+//IPAddress gateway(192,168,88,1);
+//IPAddress subnet(255,255,255,0);
+
+
 // Functions from aRest.js
 int stop(String message);
 int forward(String message);
@@ -98,6 +104,7 @@ void setup(void)
   
   // Connect to WiFi
   WiFi.begin(ssid, password);
+//  WiFi.config(ip, gateway, subnet); // Set the static ip
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
