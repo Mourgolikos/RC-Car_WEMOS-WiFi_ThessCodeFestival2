@@ -3,14 +3,16 @@
 // author: Paschaleris Triantafyllos
 //         https://paschaleris.gr
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Get the modified Arduino IDE:
-//    \\192.168.88.1\sd(a1)\ArduinoIDE.zip
-// extract the file
-// replace the contents of C:\Program Files (x86)\Arduino
+// From the folder "files needed\Arduino libraries" of this repository copy the folders:
+//    "Adafruit_SSD1306_WEMOS"
+//    "Adafruit_GFX_Library"
+//
+// paste them inside:  C:\Program Files (x86)\Arduino\libraries\
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Link to add additional boards (File > Preferences): http://arduino.esp8266.com/stable/package_esp8266com_index.json
 // Then open Boards Manager from Tools > Board > Board Manager and search and install "esp8266".
+//                                       then search and install "aREST"
 //
 // Before Upload CHECK in tools for the CORRECT PORT and:
 //   Board: "WeMos D1 R2 & mini"
