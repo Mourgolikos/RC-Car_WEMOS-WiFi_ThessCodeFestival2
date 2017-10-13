@@ -10,6 +10,7 @@
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Link to add additional boards (File > Preferences): http://arduino.esp8266.com/stable/package_esp8266com_index.json
+// Then open Boards Manager from Tools > Board > Board Manager and search and install "esp8266".
 //
 // Before Upload CHECK in tools for the CORRECT PORT and:
 //   Board: "WeMos D1 R2 & mini"
