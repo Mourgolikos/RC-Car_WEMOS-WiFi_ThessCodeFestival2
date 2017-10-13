@@ -25,7 +25,7 @@ aREST rest = aREST();
 
 // WiFi parameters - Special for 2nd Thess Code Festival workshop
 const char* ssid = "ThessCodeFestival_WiFi-CAR";
-const char* password = "*********";
+const char* password = "peinaw!!!";
 
 // The port to listen for incoming TCP connections 
 #define LISTEN_PORT           80
@@ -148,6 +148,14 @@ void loop() {
     delay(1);
   }
   rest.handle(client);
+
+  // Check for the WiFi signal and if disconnected then stop the car
+  int wifi_status = WiFi.status();
+  if (wifi_status == WL_DISCONNECTED || wifi_status == WL_DISCONNECTED){
+    motor1("stop");
+    motor2("stop");
+    showText("Disconnected!");
+  }
  
 }
 
