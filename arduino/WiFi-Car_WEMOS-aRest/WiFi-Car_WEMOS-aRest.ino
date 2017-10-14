@@ -1,25 +1,31 @@
-//                         2nd Thess Code Festival Workshop
+//                         2nd Thess Code Festival Workshop     ~     Saturday 14th October
 //
-// author: Paschaleris Triantafyllos
-//         https://paschaleris.gr
+// author:      Paschaleris Triantafyllos
+//              https://paschaleris.gr
+//
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // From the folder "files needed\Arduino libraries" of this repository copy the folders:
 //    "Adafruit_SSD1306_WEMOS"
 //    "Adafruit_GFX_Library"
 //
-// paste them inside:  C:\Program Files (x86)\Arduino\libraries\
+// paste them inside:  "C:\Program Files (x86)\Arduino\libraries\"
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Link to add additional boards (File > Preferences): http://arduino.esp8266.com/stable/package_esp8266com_index.json
-// Then open Boards Manager from Tools > Board > Board Manager and search and install "esp8266".
-//                                       then search and install "aREST"
+// Go to File > Preferences and in the field Additional Boards Manager URLs paste this link: http://arduino.esp8266.com/stable/package_esp8266com_index.json
+// Then go to Tools > Board > Board Manager and search and install "esp8266" (it may take a few minutes)
+//                                         then search and install "aREST"
 //
-// Before Upload CHECK in tools for the CORRECT PORT and:
+//        !!! IMPORTANT !!!
+// Before Upload to Wemos CHECK in Tools for the CORRECT PORT (usually "COM 3" or 4) and verify your settings:
 //   Board: "WeMos D1 R2 & mini"
 //   CPU Frequency: "80MHz"
 //   Flash Size: "4M (3M SPIFFS)"
 //   Upload Speed: "921600"
+//
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//         Now, let's do some magic!
+//  ⊂(◉‿◉)つ
+//
 
 // Import required libraries
 #include "ESP8266WiFi.h"
